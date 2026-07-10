@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #0F0E17;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    color: #7B5EA7;
+    background-color: #1E1B2E;
+}
+
+header p {
+    font-size: 30px;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid #4c3971;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #F5F0E8;
+    background-color: #7B5EA7;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b493e2;
+}
+
+.intro {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    color: #F5F0E8;
+    background-color: #0F0E17;
+}
+
+.intro div {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: #E8734A;
+}
+
+.intro h1 {
+    padding: 20px 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro p {
+    padding: 0px 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1E1B2E;
+}
+
+.card h3 {
+    padding: 5px;
+    margin: 5px;
+    color: #A39FB0;
+}
+
+.card p {
+    padding-bottom: 8px;
+    color: #F5F0E8;
+}
+
+.about h3 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin: 10px;
+    color: #7B5EA7;
+}
+
+.about p {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: 5px;
+    color: #F5F0E8;
+}
+
+.lineup article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1E1B2E;
+}
+
+.avatarone {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background-color: #692a92;
+}
+
+.avatartwo {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background-color: #e88a68;
+}
+
+.bais {
+    padding-top: 5px;
+    font-size: large;
+    color: #F5F0E8;
+}
+
+.sub {
+    font-size: small;
+    color: #4c3971;
+}
+
+.lineup-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+.lineup h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 10px;
+    color: #7B5EA7;
+}
+
+.ticket-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.ticket article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #1E1B2E;
+}
+
+.ticket h3 {
+    padding: 5px;
+    color: #F5F0E8;
+}
+
+.ticket .title {
+    padding: 10px;
+    margin: 10px;
+    color: #7B5EA7;
+}
+
+.ticket .ticket-price {
+    color: rgb(216, 105, 105);
+}
+
+.ticket .description {
+    color: #F5F0E8;
+}
+
+footer {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 10px;
+    color: #7B5EA7;
+    background-color: #1E1B2E;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+}
+
+a {
+    color: #7B5EA7;
+}
+
+a:hover {
+    color: #b493e2;
+}
